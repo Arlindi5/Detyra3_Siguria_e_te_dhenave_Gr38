@@ -16,7 +16,7 @@ import java.util.Arrays;
 	    	String decodedtext = new EDEMODE().decrypt(codedtext);
 
 	    	System.out.println(codedtext); // this is a byte array, you'll just see a reference to an array
-	    	System.out.println(decodedtext); // This correctly shows "Arlindi"
+	    	System.out.println(decodedtext); // This correctly shows "DETYRA8"
 	    }
 
 	    public byte[] encrypt(String message) throws Exception {
